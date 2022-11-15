@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Finger+Paint&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;padding: 0;box-sizing: border-box;
+            background-color: black;
+            font-family: 'Abel', sans-serif;
+        }
+        .parent_div{
+            background-color: white;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parent_div div{
+            display: grid;
+            place-items: center;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+        }
+        .parent_div div h1{
+            margin-bottom: -10px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 400px;
+        }
+       
+        .parent_div div input{
+            margin-bottom: 20px;
+            background-color: rgba(10, 240, 190, 0.712);
+            border: none;
+            border-radius: 2px;
+            font-size: 12px;
+
+        }
+        img{
+            width: 25vw;
+            height: 60vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent_div">
+        <div>
+            <img src="./images/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Doctor Strange">
+            <h1>Doctor Strange 2</h1>
+            <p> Rating :- 4.5</p>
+            <input class="input" type="submit" value="Book Now">            
+        </div>
+        <div>
+            <img src="./images/bb2--705x750-cbc15240-8a94-11ec-8efd-6d205f33f529.jpg" alt="Bhool Bhuleya">
+            <h1>Bhool Bhulaiyaa 2</h1>
+            <p>Rating:- 4.5</p>
+            <input type="submit" value="Book Now">
+        </div>
+        <div>
+            <img src="./images/Jayeshbhai-Jordaar---705x750-660c01c0-cf7c-11ec-98b3-41c37f260d1c.jpg" alt="Jayesh Bhai jordar">
+            <h1>Jayeshbhai Jordar</h1>
+            <p>Rating:- 4.5</p>
+            <input type="submit" value="Book Now">
+        </div>
+    </div>
+    <div class="parent_div">
+        <div>
+            <img src="./images/Jurassic-World--Dominion-705x750-b554ee90-cd51-11ec-8d22-2363945d80ef.jpg" alt="Jurassic world">
+            <h1>Jurassic World</h1>
+            <p>Rating:- 4.5</p>
+            <input type="submit" value="Book Now">
+        </div>
+        <div>
+            <img src="./images/KGF-705x750-76008750-b6fd-11ec-9639-8322852eadd4.jpg" alt="KGF 2">
+            <h1>KGF2</h1>
+            <p>Rating:- 4.5</p>
+            <input type="submit" value="Book Now">
+        </div>
+        <div>
+            <img src="./images/RRR-North-705x750-fd78d9c0-693d-11ec-bbcd-5d122dc4018b.jpg" alt="RRR">
+            <h1>RRR</h1>
+            <p>Rating:- 4.5</p>
+            <input type="submit" value="Book Now">
+        </div>
+    </div>
+    
+</body>
+</html>
